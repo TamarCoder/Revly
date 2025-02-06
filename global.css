@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #050109;
+}
+
+
+.Main-container {
+    max-width: 2000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+}
+
+.header-menu {
+    max-width: 1455px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    height: 100px;
+    background: rgba(94, 94, 94, 0.10);
+
+}
+
+
+.header-menu-content {
+    width: 1048px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.header-menu-box-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 48px;
+    width: 129px;
+    background-color: tomato;
+}
+
+.header-menu-box-menu {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 50px;
+    border: 1px solid #5C6069;
+    background-color: tomato;
+    width: 453px;
+    height: 52px;
+}
+
+.header-menu-box-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: 260px;
+    height: 53px;
+    background-color: tomato;
+}
+
+.header-title {
+    display: flex;
+    max-width: 996px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 359px;
+    background-color: tomato;
+}
+
+.header-cover {
+    max-width: 1124px;
+    width: 100%;
+    height: 298px;
+    background: url("./images/Frame\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-bottom {
+    max-width: 1455px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heder-bottom-menu {
+    width: 1455px;
+    height: 100px;
+    padding: 24px 0px;
+    align-items: center;
+    gap: 24px;
+    background: #000000;
+}
+
+.light-box-1 {
+    width: 361px;
+    height: 366px;
+    flex-shrink: 0;
+    border-radius: 400px;
+    background: linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%);
+    filter: blur(277.79998779296875px);
+    position: absolute;
+    top: 25%;
+    left: 0;
+    
+}
+
+.light-box-2 {
+    width: 361px;
+    height: 366px;
+    flex-shrink: 0;
+    border-radius: 400px;
+    background: linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%);
+    filter: blur(277.79998779296875px);
+    position: absolute;
+    top: 35%;
+    right: 0;
+    
+}
